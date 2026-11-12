@@ -18,3 +18,5 @@ Depends: R (>= 4.1.0)
 Imports: dplyr, knitr, rlang, stringi, stringr, tibble
 Suggests: gt, janitor, testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/anikoszabo/mcwutils
+BugReports: https://github.com/anikoszabo/mcwutils/issues
