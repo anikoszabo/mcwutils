@@ -1,12 +1,13 @@
 # mcwutils
 
-Small, tested helpers for biostatistical data management, consolidated from a personal R snippets notebook.
+Small, tested helpers for biostatistical data management created at the 
+Medical College of Wisconsin Biostatistical Consulting Service.
 
 ## Installation
 
 ```r
 # install.packages("remotes")
-remotes::install_github("USER/mcwutils")   # add auth_token = ... if the repo is private
+remotes::install_github("anikoszabo/mcwutils")  
 ```
 
 ## Functions
