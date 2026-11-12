@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^GITHUB_SETUP\.md$
+^README\.md$
+^TIPS_for_OneNote\.md$
+^mcwutils_develop\.R$

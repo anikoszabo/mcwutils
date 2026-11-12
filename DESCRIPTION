@@ -1,0 +1,20 @@
+Package: mcwutils
+Type: Package
+Title: Small Utilities for Biostatistical Data Management and Reporting
+Version: 0.1.0
+Authors@R: person("Aniko", "Szabo", email = "aszabo@mcw.edu", role = c("aut", "cre"))
+Description: A collection of small helper functions for routine data
+    preparation in biostatistical projects: tracking participant exclusions in
+    a selection flow table, handling strings with missing values, summarizing
+    vectors that may be entirely missing, converting laboratory values reported
+    as below the limit of detection, administrative censoring of time-to-event
+    data, working with REDCap-style data dictionaries, and sourcing scripts or
+    R Markdown files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports: dplyr, knitr, rlang, stringi, stringr, tibble
+Suggests: gt, janitor, testthat (>= 3.0.0)
+Config/testthat/edition: 3

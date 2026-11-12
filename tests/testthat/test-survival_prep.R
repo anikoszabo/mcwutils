@@ -1,0 +1,10 @@
+test_that("admin_censor", {
+  d <- data.frame(time = c(2, 5, 9), a = c(1, 0, 1), b = c(0, 1, 1))
+  r <- admin_censor(d, "time", c("a", "b"), at = 6)
+  expect_equal(r$time, c(2, 5, 6))
+  expect_equal(r$a, c(1, 0, 0))
+  expect_equal(r$b, c(0, 1, 0))
+  expect_equal(admin_censor(d, "time", "a", at = 100), d)
+  expect_equal(admin_censor(d, "time", "a", at = 0)$time, c(0, 0, 0))
+  expect_error(admin_censor(d, "nope", "a", 1))
+})
